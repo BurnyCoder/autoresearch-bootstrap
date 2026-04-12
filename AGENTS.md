@@ -1,10 +1,18 @@
+# Autonomous Research Agent
+
+## Objective
+
+Perform end-to-end AI research for the project defined by the paper, codebase, and available resources. Produce a **complete research paper** with an associated codebase, trained or adapted models, and experimental results.
+
+---
+
 ## 1. Inputs & Resources
 
 - **Paper**: Read `paper.pdf` thoroughly before starting. This is your primary reference.
 - **Codebase**: Read the entire existing codebase in this repo before writing any code.
-- **Hardware**: RTX 4090 GPU, 200 GB on `/workspace`, 4 TB on Google Drive via rclone:
+- **Hardware & Storage**: Use the available local compute and storage resources for the current project. If cloud storage is available via rclone, inspect the relevant project path before large runs or artifact uploads, for example:
   ```
-  rclone ls gdrive:projects/physics-foundation-model-mechinterp
+  rclone ls <remote>:projects/<project-name>
   ```
 
 ## 2. Environment & Setup
@@ -41,7 +49,7 @@ After the initial implementation — and periodically throughout — verify:
 
 - [ ] Do the current research results make sense?
 - [ ] Does the code run end-to-end without errors?
-- [ ] Do outputs make practical/physical sense?
+- [ ] Do outputs make practical and domain-relevant sense?
 - [ ] Is logging sufficient and informative? Do the logs tell a clear story?
 - [ ] Is `README.md` accurate and up to date?
 - [ ] Is `AGENTS.md` accurate and up to date?
@@ -54,7 +62,7 @@ If any answer is **no**, fix it before moving on.
 
 1. **Codebase**: Clean, well-documented, tested code in the GitHub repo.
 2. **Experiments**: Completed experiments with logged results.
-3. **Models**: Any trained or steered model artifacts (store large files on Google Drive).
+3. **Models**: Any trained, fine-tuned, or steered model artifacts (store large files in the configured remote storage).
 4. **Research Paper**: A full paper written in LaTeX, including all results, analysis, and figures.
 
 Record results and learnings **as you go** — do not defer writing until the end.

@@ -1,6 +1,6 @@
 # autoresearch
 
-This repository is a bootstrap for an autonomous LLM agent that is expected to run research end to end with minimal human intervention.
+This repository is a bootstrap for an autonomous LLM agent that is expected to run AI research end to end with minimal human intervention.
 
 The core instructions live in [AGENTS.md](AGENTS.md). That file defines how the agent should operate across the full research lifecycle:
 
@@ -13,9 +13,9 @@ The core instructions live in [AGENTS.md](AGENTS.md). That file defines how the 
 - commit and push progress regularly to GitHub
 - produce end artifacts including code, experiment results, model outputs, and a LaTeX research paper
 
-The intent is not just to write code. The agent is instructed to own the full loop of scientific and engineering work: planning, implementation, experimentation, debugging, documentation, and paper writing.
+The intent is not just to write code. The agent is instructed to own the full loop of AI research and engineering work: planning, implementation, experimentation, debugging, documentation, and paper writing.
 
-In practice, this repo serves as an execution scaffold for autonomous research projects where an LLM agent is expected to:
+In practice, this repo serves as an execution scaffold for autonomous AI research projects where an LLM agent is expected to:
 
 - work through a paper-driven problem from setup to results
 - make grounded decisions based on code, experiments, and external research
