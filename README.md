@@ -13,7 +13,7 @@ File names are additive: a name includes the features that are present in that t
 
 Available templates:
 
-- [AGENTS.md](AGENTS.md): the default from-scratch template
+- [AGENTS-FROM-SCRATCH.md](AGENTS-FROM-SCRATCH.md): the base from-scratch template
 - [AGENTS-FROM-SCRATCH-DRIVE.md](AGENTS-FROM-SCRATCH-DRIVE.md): from-scratch template with drive guidance
 - [AGENTS-FROM-SCRATCH-HARDWARE.md](AGENTS-FROM-SCRATCH-HARDWARE.md): from-scratch template with hardware guidance
 - [AGENTS-FROM-SCRATCH-DRIVE-HARDWARE.md](AGENTS-FROM-SCRATCH-DRIVE-HARDWARE.md): from-scratch template with both drive and hardware guidance
