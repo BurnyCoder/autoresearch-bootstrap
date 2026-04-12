@@ -4,20 +4,28 @@ This repository is a bootstrap for an autonomous LLM agent that is expected to r
 
 The repo includes several instruction templates:
 
-- [AGENTS.md](AGENTS.md): the generic autonomous AI research template
-- [AGENTS-BUILDING-ON-TOP-OF.md](AGENTS-BUILDING-ON-TOP-OF.md): a variant for projects that start from an existing paper and codebase
-- [AGENTS-NO-DRIVE.md](AGENTS-NO-DRIVE.md): the generic template without remote-drive references
-- [AGENTS-BUILDING-ON-TOP-OF-NO-DRIVE.md](AGENTS-BUILDING-ON-TOP-OF-NO-DRIVE.md): the paper/codebase variant without remote-drive references
-- [AGENTS-NO-HARDWARE.md](AGENTS-NO-HARDWARE.md): the generic template without hardware references
-- [AGENTS-NO-DRIVE-NO-HARDWARE.md](AGENTS-NO-DRIVE-NO-HARDWARE.md): the generic template without drive or hardware references
-- [AGENTS-BUILDING-ON-TOP-OF-NO-HARDWARE.md](AGENTS-BUILDING-ON-TOP-OF-NO-HARDWARE.md): the paper/codebase variant without hardware references
-- [AGENTS-BUILDING-ON-TOP-OF-NO-DRIVE-NO-HARDWARE.md](AGENTS-BUILDING-ON-TOP-OF-NO-DRIVE-NO-HARDWARE.md): the paper/codebase variant without drive or hardware references
+File names are additive: a name includes the features that are present in that template.
+
+- `BUILDING-ON-TOP-OF`: includes paper and existing-codebase inputs
+- `DRIVE`: includes remote storage guidance via `rclone`
+- `HARDWARE`: includes local compute or hardware guidance
+
+Available templates:
+
+- [AGENTS.md](AGENTS.md): the base generic template
+- [AGENTS-DRIVE.md](AGENTS-DRIVE.md): base template with drive guidance
+- [AGENTS-HARDWARE.md](AGENTS-HARDWARE.md): base template with hardware guidance
+- [AGENTS-DRIVE-HARDWARE.md](AGENTS-DRIVE-HARDWARE.md): base template with both drive and hardware guidance
+- [AGENTS-BUILDING-ON-TOP-OF.md](AGENTS-BUILDING-ON-TOP-OF.md): paper/codebase variant
+- [AGENTS-BUILDING-ON-TOP-OF-DRIVE.md](AGENTS-BUILDING-ON-TOP-OF-DRIVE.md): paper/codebase variant with drive guidance
+- [AGENTS-BUILDING-ON-TOP-OF-HARDWARE.md](AGENTS-BUILDING-ON-TOP-OF-HARDWARE.md): paper/codebase variant with hardware guidance
+- [AGENTS-BUILDING-ON-TOP-OF-DRIVE-HARDWARE.md](AGENTS-BUILDING-ON-TOP-OF-DRIVE-HARDWARE.md): paper/codebase variant with both drive and hardware guidance
 
 The core behavior defined by these templates includes:
 
 - search for relevant libraries, repos, and techniques before building custom solutions
 - set up the environment and dependencies explicitly
-- when the chosen template includes them, use the available storage resources for the project
+- when the chosen template includes them, use the available storage and hardware resources for the project
 - implement iteratively with tests, logging, and regular execution checks
 - run experiments, inspect outputs, record findings, and revise the plan continuously
 - keep `README.md` and `AGENTS.md` up to date as living project documents

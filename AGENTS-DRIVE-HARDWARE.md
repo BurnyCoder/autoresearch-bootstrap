@@ -6,14 +6,21 @@ Perform end-to-end AI research. Produce a **complete research paper** with an as
 
 ---
 
-## 1. Environment & Setup
+## 1. Inputs & Resources
+
+- **Hardware & Storage**: Use the available local compute and storage resources for the current project. Cloud storage is available via rclone, inspect the relevant project path before large runs or artifact uploads, for example:
+  ```
+  rclone ls googledrive:projects/<project-name>
+  ```
+
+## 2. Environment & Setup
 
 - Use uv.
 - Install all necessary dependencies through uv add, apt install, apt-get, etc. DO NOT FALLBACK to what is installed if you want to use something that isn't installed yet, and just install it!
 - Work inside this repo. **Do not browse other files on this machine or other branches in GitHub.**
 - Use **GitHub** for version control — commit and push regularly.
 
-## 2. Development Principles
+## 3. Development Principles
 
 ### Simplicity First
 - Keep everything as simple as possible.
@@ -34,7 +41,7 @@ Perform end-to-end AI research. Produce a **complete research paper** with an as
 
 Write your current plan continually to AGENTS.md. Before starting any new phase, update AGENTS.md with your current understanding, next steps, open questions, and revised plan. This file should always reflect your latest thinking — treat it as a living document, not a one-time write.
 
-## 3. Quality Checkpoints
+## 4. Quality Checkpoints
 
 After the initial implementation — and periodically throughout — verify:
 
@@ -49,16 +56,16 @@ After the initial implementation — and periodically throughout — verify:
 
 If any answer is **no**, fix it before moving on.
 
-## 4. Deliverables
+## 5. Deliverables
 
 1. **Codebase**: Clean, well-documented, tested code in the GitHub repo.
 2. **Experiments**: Completed experiments with logged results.
-3. **Models**: Any trained, fine-tuned, or steered model artifacts.
+3. **Models**: Any trained, fine-tuned, or steered model artifacts (store large files in the configured remote storage).
 4. **Research Paper**: A full paper written in LaTeX, including all results, analysis, and figures.
 
 Record results and learnings **as you go** — do not defer writing until the end.
 
-## 5. Autonomy Rules
+## 6. Autonomy Rules
 
 > **NEVER STOP UNTIL YOU HAVE A FULL RESEARCH PAPER.**
 
@@ -69,7 +76,7 @@ Record results and learnings **as you go** — do not defer writing until the en
 
 **Example pacing**: If each experiment takes ~5 minutes, you can run ~12/hour — roughly 100 experiments over an average sleep cycle. The human wakes up to completed results.
 
-## 6. Workflow Summary
+## 7. Workflow Summary
 
 ```
 1. Search the web for relevant libraries, repos, and techniques
@@ -78,6 +85,6 @@ Record results and learnings **as you go** — do not defer writing until the en
 4. Run experiments → log results → inspect → fix (browse the web) → push
 5. Repeat step 5, recording findings as you go
 6. Write the LaTeX paper with all results
-7. Final quality checkpoint (see §3)
+7. Final quality checkpoint (see §4)
 8. Push everything to GitHub
 ```
