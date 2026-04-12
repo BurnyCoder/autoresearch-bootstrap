@@ -2,7 +2,14 @@
 
 This repository is a bootstrap for an autonomous LLM agent that is expected to run AI research end to end with minimal human intervention.
 
-The core instructions live in [AGENTS.md](AGENTS.md). That file defines how the agent should operate across the full research lifecycle:
+The repo includes several instruction templates:
+
+- [AGENTS.md](AGENTS.md): the generic autonomous AI research template
+- [AGENTS-BUILDING-ON-TOP-OF.md](AGENTS-BUILDING-ON-TOP-OF.md): a variant for projects that start from an existing paper and codebase
+- [AGENTS-NO-DRIVE.md](AGENTS-NO-DRIVE.md): the generic template without remote-drive references
+- [AGENTS-BUILDING-ON-TOP-OF-NO-DRIVE.md](AGENTS-BUILDING-ON-TOP-OF-NO-DRIVE.md): the paper/codebase variant without remote-drive references
+
+The core behavior defined by these templates includes:
 
 - search for relevant libraries, repos, and techniques before building custom solutions
 - set up the environment and dependencies explicitly
@@ -25,4 +32,4 @@ In practice, this repo serves as an execution scaffold for autonomous AI researc
 
 The workflow assumes `uv` for environment management, GitHub for version control, and optional remote artifact storage via `rclone`, for example `rclone ls googledrive:projects/<project-name>`.
 
-If you want to understand how the agent should behave, start with [AGENTS.md](AGENTS.md).
+If you want to understand how the agent should behave, start with the template that matches your project constraints.
