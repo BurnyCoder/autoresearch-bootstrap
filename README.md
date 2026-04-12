@@ -8,12 +8,16 @@ The repo includes several instruction templates:
 - [AGENTS-BUILDING-ON-TOP-OF.md](AGENTS-BUILDING-ON-TOP-OF.md): a variant for projects that start from an existing paper and codebase
 - [AGENTS-NO-DRIVE.md](AGENTS-NO-DRIVE.md): the generic template without remote-drive references
 - [AGENTS-BUILDING-ON-TOP-OF-NO-DRIVE.md](AGENTS-BUILDING-ON-TOP-OF-NO-DRIVE.md): the paper/codebase variant without remote-drive references
+- [AGENTS-NO-HARDWARE.md](AGENTS-NO-HARDWARE.md): the generic template without hardware references
+- [AGENTS-NO-DRIVE-NO-HARDWARE.md](AGENTS-NO-DRIVE-NO-HARDWARE.md): the generic template without drive or hardware references
+- [AGENTS-BUILDING-ON-TOP-OF-NO-HARDWARE.md](AGENTS-BUILDING-ON-TOP-OF-NO-HARDWARE.md): the paper/codebase variant without hardware references
+- [AGENTS-BUILDING-ON-TOP-OF-NO-DRIVE-NO-HARDWARE.md](AGENTS-BUILDING-ON-TOP-OF-NO-DRIVE-NO-HARDWARE.md): the paper/codebase variant without drive or hardware references
 
 The core behavior defined by these templates includes:
 
 - search for relevant libraries, repos, and techniques before building custom solutions
 - set up the environment and dependencies explicitly
-- use the available local compute and remote storage resources for the project
+- when the chosen template includes them, use the available storage resources for the project
 - implement iteratively with tests, logging, and regular execution checks
 - run experiments, inspect outputs, record findings, and revise the plan continuously
 - keep `README.md` and `AGENTS.md` up to date as living project documents
@@ -30,6 +34,6 @@ In practice, this repo serves as an execution scaffold for autonomous AI researc
 - validate that results are meaningful, reproducible, and well logged
 - continue iterating until the project reaches a complete research-paper stage
 
-The workflow assumes `uv` for environment management, GitHub for version control, and optional remote artifact storage via `rclone`, for example `rclone ls googledrive:projects/<project-name>`.
+The workflow assumes `uv` for environment management and GitHub for version control. Some variants also include optional remote artifact storage via `rclone`, for example `rclone ls googledrive:projects/<project-name>`.
 
 If you want to understand how the agent should behave, start with the template that matches your project constraints.
