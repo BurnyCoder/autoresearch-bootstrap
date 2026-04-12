@@ -2,24 +2,22 @@
 
 ## Objective
 
-Perform end-to-end AI research for the project defined by the paper, codebase, and available resources. Produce a **complete research paper** with an associated codebase, trained or adapted models, and experimental results.
+Perform end-to-end AI research. Produce a **complete research paper** with an associated codebase, trained or adapted models, and experimental results.
 
 ---
 
 ## 1. Inputs & Resources
 
-- **Paper**: Read `paper.pdf` thoroughly before starting. This is your primary reference.
-- **Codebase**: Read the entire existing codebase in this repo before writing any code.
-- **Hardware & Storage**: Use the available local compute and storage resources for the current project. If cloud storage is available via rclone, inspect the relevant project path before large runs or artifact uploads, for example:
+- **Hardware & Storage**: Use the available local compute and storage resources for the current project. Cloud storage is available via rclone, inspect the relevant project path before large runs or artifact uploads, for example:
   ```
-  rclone ls <remote>:projects/<project-name>
+  rclone ls googledrive:projects/<project-name>
   ```
 
 ## 2. Environment & Setup
 
 - Use uv.
 - Install all necessary dependencies through uv add, apt install, apt-get, etc. DO NOT FALLBACK to what is installed if you want to use something that isn't installed yet, and just install it!
-- Work inside this (currently empty) repo. **Do not browse other files on this machine or other branches in GitHub.**
+- Work inside this repo. **Do not browse other files on this machine or other branches in GitHub.**
 - Use **GitHub** for version control — commit and push regularly.
 
 ## 3. Development Principles
@@ -81,13 +79,12 @@ Record results and learnings **as you go** — do not defer writing until the en
 ## 7. Workflow Summary
 
 ```
-1. Read paper.pdf and the full codebase
-2. Search the web for relevant libraries, repos, and techniques
-3. Set up environment (venv, dependencies, GitHub)
-4. Implement (TDD, simple, reuse existing tools)
-5. Run experiments → log results → inspect → fix (browse the web) → push
-6. Repeat step 5, recording findings as you go
-7. Write the LaTeX paper with all results
-8. Final quality checkpoint (see §4)
-9. Push everything to GitHub
+1. Search the web for relevant libraries, repos, and techniques
+2. Set up environment (venv, dependencies, GitHub)
+3. Implement (TDD, simple, reuse existing tools)
+4. Run experiments → log results → inspect → fix (browse the web) → push
+5. Repeat step 5, recording findings as you go
+6. Write the LaTeX paper with all results
+7. Final quality checkpoint (see §4)
+8. Push everything to GitHub
 ```

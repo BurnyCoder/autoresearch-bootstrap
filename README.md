@@ -4,9 +4,9 @@ This repository is a bootstrap for an autonomous LLM agent that is expected to r
 
 The core instructions live in [AGENTS.md](AGENTS.md). That file defines how the agent should operate across the full research lifecycle:
 
-- read the source paper and the entire in-repo codebase before making changes
 - search for relevant libraries, repos, and techniques before building custom solutions
 - set up the environment and dependencies explicitly
+- use the available local compute and remote storage resources for the project
 - implement iteratively with tests, logging, and regular execution checks
 - run experiments, inspect outputs, record findings, and revise the plan continuously
 - keep `README.md` and `AGENTS.md` up to date as living project documents
@@ -17,10 +17,12 @@ The intent is not just to write code. The agent is instructed to own the full lo
 
 In practice, this repo serves as an execution scaffold for autonomous AI research projects where an LLM agent is expected to:
 
-- work through a paper-driven problem from setup to results
+- work through an AI research problem from setup to results
 - make grounded decisions based on code, experiments, and external research
 - keep an explicit running plan in version control
 - validate that results are meaningful, reproducible, and well logged
 - continue iterating until the project reaches a complete research-paper stage
+
+The workflow assumes `uv` for environment management, GitHub for version control, and optional remote artifact storage via `rclone`, for example `rclone ls googledrive:projects/<project-name>`.
 
 If you want to understand how the agent should behave, start with [AGENTS.md](AGENTS.md).
