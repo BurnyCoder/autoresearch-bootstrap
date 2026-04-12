@@ -91,3 +91,6 @@ Record results and learnings **as you go** — do not defer writing until the en
 8. Final quality checkpoint (see §4)
 9. Push everything to GitHub
 ```
+
+Do not remove any lines above the Scratchpad.
+# Scratchpad

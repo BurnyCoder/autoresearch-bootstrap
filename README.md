@@ -46,3 +46,6 @@ In practice, this repo serves as an execution scaffold for autonomous AI researc
 The workflow assumes `uv` for environment management and GitHub for version control. Some variants also include optional remote artifact storage via `rclone`, for example `rclone ls googledrive:projects/<project-name>`.
 
 If you want to understand how the agent should behave, start with the template that matches your project constraints.
+
+Do not remove any lines above the Scratchpad.
+# Scratchpad
