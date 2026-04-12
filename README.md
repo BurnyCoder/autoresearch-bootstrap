@@ -6,16 +6,17 @@ The repo includes several instruction templates:
 
 File names are additive: a name includes the features that are present in that template.
 
+- `FROM-SCRATCH`: starts without paper or existing-codebase inputs
 - `BUILDING-ON-TOP-OF`: includes paper and existing-codebase inputs
 - `DRIVE`: includes remote storage guidance via `rclone`
 - `HARDWARE`: includes local compute or hardware guidance
 
 Available templates:
 
-- [AGENTS.md](AGENTS.md): the base generic template
-- [AGENTS-DRIVE.md](AGENTS-DRIVE.md): base template with drive guidance
-- [AGENTS-HARDWARE.md](AGENTS-HARDWARE.md): base template with hardware guidance
-- [AGENTS-DRIVE-HARDWARE.md](AGENTS-DRIVE-HARDWARE.md): base template with both drive and hardware guidance
+- [AGENTS.md](AGENTS.md): the default from-scratch template
+- [AGENTS-FROM-SCRATCH-DRIVE.md](AGENTS-FROM-SCRATCH-DRIVE.md): from-scratch template with drive guidance
+- [AGENTS-FROM-SCRATCH-HARDWARE.md](AGENTS-FROM-SCRATCH-HARDWARE.md): from-scratch template with hardware guidance
+- [AGENTS-FROM-SCRATCH-DRIVE-HARDWARE.md](AGENTS-FROM-SCRATCH-DRIVE-HARDWARE.md): from-scratch template with both drive and hardware guidance
 - [AGENTS-BUILDING-ON-TOP-OF.md](AGENTS-BUILDING-ON-TOP-OF.md): paper/codebase variant
 - [AGENTS-BUILDING-ON-TOP-OF-DRIVE.md](AGENTS-BUILDING-ON-TOP-OF-DRIVE.md): paper/codebase variant with drive guidance
 - [AGENTS-BUILDING-ON-TOP-OF-HARDWARE.md](AGENTS-BUILDING-ON-TOP-OF-HARDWARE.md): paper/codebase variant with hardware guidance
