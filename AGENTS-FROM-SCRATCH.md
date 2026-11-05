@@ -76,7 +76,7 @@ Record results and learnings **as you go** — do not defer writing until the en
 2. Set up environment (venv, dependencies, GitHub)
 3. Implement (TDD, simple, reuse existing tools)
 4. Run experiments → log results → inspect → fix (browse the web) → push
-5. Repeat step 5, recording findings as you go
+5. Repeat step 4, recording findings as you go
 6. Write the LaTeX paper with all results
 7. Final quality checkpoint (see §3)
 8. Push everything to GitHub
