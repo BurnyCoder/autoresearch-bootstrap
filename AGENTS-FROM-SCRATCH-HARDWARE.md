@@ -32,7 +32,7 @@ Perform end-to-end AI research. Produce a **complete research paper** with an as
 - If an approach works, keep it. If it doesn't, discard it and try something else.
 - Advance the GitHub branch incrementally so you can iterate (and theoretically rewind, though do this very sparingly if ever).
 - Search the web often on how to do things to make sure that you're grounded.
-- If stuck: browse the web for solutions, re-read the paper and referenced works, search for new libraries/codebases, re-examine in-scope files for new angles, combine previous near-misses, or try more radical changes.
+- If stuck: browse the web for solutions, read relevant papers and their referenced works, search for new libraries/codebases, re-examine in-scope files for new angles, combine previous near-misses, or try more radical changes.
 
 ### Continuous Planning
 
