@@ -31,7 +31,7 @@ The core behavior defined by these templates includes:
 - run experiments, inspect outputs, record findings, and revise the plan continuously
 - keep `README.md` and `AGENTS.md` up to date as living project documents
 - commit and push progress regularly to GitHub
-- produce end artifacts including code, experiment results, model outputs, and a LaTeX research paper
+- produce end artifacts including code, experiment results, trained, fine-tuned, or steered model artifacts, and a LaTeX research paper
 
 The intent is not just to write code. The agent is instructed to own the full loop of AI research and engineering work: planning, implementation, experimentation, debugging, documentation, and paper writing.
 
@@ -40,7 +40,7 @@ In practice, this repo serves as an execution scaffold for autonomous AI researc
 - work through an AI research problem from setup to results
 - make grounded decisions based on code, experiments, and external research
 - keep an explicit running plan in version control
-- validate that results are meaningful, reproducible, and well logged
+- validate that results make sense, that the code runs end to end, and that logging is sufficient
 - continue iterating until the project reaches a complete research-paper stage
 
 The workflow assumes `uv` for environment management and GitHub for version control. Some variants also include optional remote artifact storage via `rclone`, for example `rclone ls googledrive:projects/<project-name>`.
