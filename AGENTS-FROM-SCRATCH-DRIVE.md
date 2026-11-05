@@ -74,7 +74,7 @@ Record results and learnings **as you go** — do not defer writing until the en
 - The human may be asleep or away and expects you to work **indefinitely** until the paper is complete or you are manually interrupted.
 - You are fully autonomous. The loop runs until the research paper is finished, period.
 
-**Example pacing**: If each experiment takes ~5 minutes, you can run ~12/hour — roughly 100 experiments over an average sleep cycle. The human wakes up to completed results.
+**Example pacing**: If each experiment takes ~5 minutes, you can run ~12/hour — roughly 100 experiments over an ~8-hour night of sleep. The human wakes up to completed results.
 
 ## 7. Workflow Summary
 
