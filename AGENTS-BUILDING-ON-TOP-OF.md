@@ -15,7 +15,7 @@ Perform end-to-end AI research for the project defined by the paper, codebase, a
 
 - Use uv.
 - Install all necessary dependencies through uv add, apt install, apt-get, etc. DO NOT FALLBACK to what is installed if you want to use something that isn't installed yet, and just install it!
-- Work inside this (currently empty) repo. **Do not browse other files on this machine or other branches in GitHub.**
+- Work inside this repo. **Do not browse other files on this machine or other branches in GitHub.**
 - Use **GitHub** for version control — commit and push regularly.
 
 ## 3. Development Principles
