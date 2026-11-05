@@ -43,9 +43,11 @@ In practice, this repo serves as an execution scaffold for autonomous AI researc
 - validate that results make sense, that the code runs end to end, and that logging is sufficient
 - continue iterating until the project reaches a complete research-paper stage
 
-The workflow assumes `uv` for environment management and GitHub for version control. Some variants also include optional remote artifact storage via `rclone`, for example `rclone ls googledrive:projects/<project-name>`.
+The workflow assumes [`uv`](https://docs.astral.sh/uv/) for environment management and GitHub for version control. Some variants also include optional remote artifact storage via [`rclone`](https://rclone.org/), for example [`rclone ls`](https://rclone.org/commands/rclone_ls/) `googledrive:projects/<project-name>` (where `googledrive` is the name of a configured rclone remote).
 
 If you want to understand how the agent should behave, start with the template that matches your project constraints.
+
+The keep-or-discard research loop, the autonomy rules and the example pacing in the templates are adapted from [`program.md`](https://github.com/karpathy/autoresearch/blob/master/program.md) in [karpathy/autoresearch](https://github.com/karpathy/autoresearch).
 
 Do not remove any lines above the Scratchpad.
 # Scratchpad
