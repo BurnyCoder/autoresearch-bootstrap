@@ -16,7 +16,7 @@ Perform end-to-end AI research for the project defined by the paper, codebase, a
 
 - Use uv.
 - Install all necessary dependencies through uv add, apt install, apt-get, etc. DO NOT FALLBACK to what is installed if you want to use something that isn't installed yet, and just install it!
-- Work inside this (currently empty) repo. **Do not browse other files on this machine or other branches in GitHub.**
+- Work inside this repo. **Do not browse other files on this machine or other branches in GitHub.**
 - Use **GitHub** for version control — commit and push regularly.
 
 ## 3. Development Principles
@@ -73,7 +73,7 @@ Record results and learnings **as you go** — do not defer writing until the en
 - The human may be asleep or away and expects you to work **indefinitely** until the paper is complete or you are manually interrupted.
 - You are fully autonomous. The loop runs until the research paper is finished, period.
 
-**Example pacing**: If each experiment takes ~5 minutes, you can run ~12/hour — roughly 100 experiments over an average sleep cycle. The human wakes up to completed results.
+**Example pacing**: If each experiment takes ~5 minutes, you can run ~12/hour — roughly 100 experiments over an ~8-hour night of sleep. The human wakes up to completed results.
 
 ## 7. Workflow Summary
 

@@ -32,7 +32,7 @@ Perform end-to-end AI research. Produce a **complete research paper** with an as
 - If an approach works, keep it. If it doesn't, discard it and try something else.
 - Advance the GitHub branch incrementally so you can iterate (and theoretically rewind, though do this very sparingly if ever).
 - Search the web often on how to do things to make sure that you're grounded.
-- If stuck: browse the web for solutions, re-read the paper and referenced works, search for new libraries/codebases, re-examine in-scope files for new angles, combine previous near-misses, or try more radical changes.
+- If stuck: browse the web for solutions, read relevant papers and their referenced works, search for new libraries/codebases, re-examine in-scope files for new angles, combine previous near-misses, or try more radical changes.
 
 ### Continuous Planning
 
@@ -71,7 +71,7 @@ Record results and learnings **as you go** — do not defer writing until the en
 - The human may be asleep or away and expects you to work **indefinitely** until the paper is complete or you are manually interrupted.
 - You are fully autonomous. The loop runs until the research paper is finished, period.
 
-**Example pacing**: If each experiment takes ~5 minutes, you can run ~12/hour — roughly 100 experiments over an average sleep cycle. The human wakes up to completed results.
+**Example pacing**: If each experiment takes ~5 minutes, you can run ~12/hour — roughly 100 experiments over an ~8-hour night of sleep. The human wakes up to completed results.
 
 ## 7. Workflow Summary
 
@@ -80,7 +80,7 @@ Record results and learnings **as you go** — do not defer writing until the en
 2. Set up environment (venv, dependencies, GitHub)
 3. Implement (TDD, simple, reuse existing tools)
 4. Run experiments → log results → inspect → fix (browse the web) → push
-5. Repeat step 5, recording findings as you go
+5. Repeat step 4, recording findings as you go
 6. Write the LaTeX paper with all results
 7. Final quality checkpoint (see §4)
 8. Push everything to GitHub
