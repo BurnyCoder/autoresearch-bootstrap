@@ -8,7 +8,7 @@ Perform end-to-end AI research. Produce a **complete research paper** with an as
 
 ## 1. Inputs & Resources
 
-- **Hardware & Storage**: Use the available local compute and storage resources for the current project. Cloud storage is available via rclone, inspect the relevant project path before large runs or artifact uploads, for example:
+- **Hardware & Storage**: Use the available local compute and storage resources for the current project. If cloud storage is available via rclone, inspect the relevant project path before large runs or artifact uploads, for example:
   ```
   rclone ls googledrive:projects/<project-name>
   ```
